@@ -1,10 +1,12 @@
 package com.purelydauntless.repository;
 
 import com.purelydauntless.model.Speaker;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository("speakerRepository")
 public class StubSpeakerRepositoryImpl implements SpeakerRepository {
 
     @Override
